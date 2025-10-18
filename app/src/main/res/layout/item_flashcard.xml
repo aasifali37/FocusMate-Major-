@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    android:background="@color/flashcard_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Question Text -->
+        <TextView
+            android:id="@+id/textQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <!-- Answer Text (Hidden by Default) -->
+        <TextView
+            android:id="@+id/textAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap to Reveal"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:visibility="gone"
+            android:paddingTop="8dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

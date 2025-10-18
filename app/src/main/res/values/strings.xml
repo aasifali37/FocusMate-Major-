@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FocusMate_Draft1</string>
+    <string-array name="sort_options">
+        <item>Usage Time</item>
+        <item>Last Time Used</item>
+        <item>App Name</item>
+    </string-array>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="profile_picture_description">Profile picture</string>
+
+</resources>
